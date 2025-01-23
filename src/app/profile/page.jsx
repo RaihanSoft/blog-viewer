@@ -13,8 +13,6 @@ const ProfilePage = async () => {
 
   return (
     <ProfileClient user={user} />
-
-
   );
 };
 
