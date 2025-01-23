@@ -1,5 +1,7 @@
 # Next.js Kinde Authentication Example
 
+Live : https://blog-viewer-87hs.vercel.app/
+
 This project demonstrates how to build a simple Next.js application with authentication using [Kinde Auth](https://kinde.com). It includes a protected profile page that fetches user details, with automatic redirection for unauthenticated users.
 
 ## Features
