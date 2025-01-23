@@ -29,8 +29,8 @@ export default function Home() {
             transition={{ duration: 0.3 }}
           >
             <Link href={`/blog/${post.id}`} className="text-blue-500 hover:underline">
+              <h2 className="text-xl font-semibold mb-2">{post.id}.</h2>
               <h2 className="text-xl font-semibold mb-2">{post.title}</h2>
-              <p className="text-gray-700">{post.body.substring(0, 100)}...</p>
             </Link>
           </motion.div>
         ))}
